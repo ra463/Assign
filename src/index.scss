@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+  outline: none !important;
+  font-family: "Roboto", sans-serif !important;
+  a {
+    text-decoration: none;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+}
+
+.clonify {
+  display: grid;
+  grid-template-columns: 232px 1fr;
+}
+
+@media screen and (max-width: 450px) {
+  .clonify {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
